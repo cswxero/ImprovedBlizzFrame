@@ -1,6 +1,6 @@
 ## Interface: 60000
 ## Title: ImprovedBlizzFrame
-## Version: 4.0b
+## Version: 5.0
 ## Author: Azshara_kr Lapresis
 ## Notes: 
 ## X-Website: 

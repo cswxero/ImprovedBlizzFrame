@@ -507,144 +507,155 @@ GRA_MAP={}
 --스턴류
 GRA_MAP[1]=
 	{
-		-- Death Knight(완)
-		108194, -- Asphyxiate (talent)(어둠의 질식)
-		91800, --47481, -- Gnaw (Ghoul) (굴강타)
-		91797, --improve ghoul (강화 굴강타)
-		-- Druid(완)
-		22570, -- Maim(드루 무력화)
-		5211, -- Mighty Bash (talent)
-		9005, -- 암습??		102546, -- Pounce
+		-- Death Knight
+		108194, -- Asphyxiate
+		 91800, -- Gnaw (Ghoul)
+		 91797, -- Monstrous Blow (Dark Transformation Ghoul)
+		115001, -- Remorseless Winter
+		-- Druid
+		 22570, -- Maim
+		  5211, -- Mighty Bash
+		-- FIXME: Pounce
+		--[163505, -- Rake (Stun from Prowl)
 		-- Hunter
-		24394, --19577, -- Intimidation
-		90337, -- Bad Manner (Monkey)
-		50519, -- Sonic Blast (Bat)
-		56626, -- Sting (Wasp)
-		-- Mage(완)
-		44572, -- Deep Freeze(동결)
-		118271, --11129, -- Combustion (Fire)(충돌스턴)
+		117526, -- Binding Shot
+		 24394, -- Intimidation
+		-- Mage
+		 44572, -- Deep Freeze
 		-- Monk
-		119392, -- Charging Ox Wave (talent)
-		119381, -- Leg Sweep (talent)
-		122057, -- Clash (Brewmaster)
-		113656, -- Fists of Fury (Windwalker)
-		-- Paladin(완)
-		853, -- Hammer of Justice(심망)
-		119072, -- Holy Wrath (Protection)
-		105593, -- Fist of Justice (talent)(심판의주먹)
-		-- Priest(완)
-		88625, -- Holy Word: Chastise
-		-- Rogue(완)
-		1833, -- Cheap Shot(비습)
-		408, -- Kidney Shot(급가)
-		-- Shaman(완)
-		118905,--108269, -- Capacitor Totem
-		-- Warlock(완)
-		30283, -- Shadowfury
-		89766, -- Axe Toss (Felguard)
-		22703, -- Infernal Awakening (Infernal)
-		-- Warrior(완)
-		--132168,--46968, -- Shockwave
-		46968, -- ShockWave(2.5에 잘못된거같아서 수정)
-		--107570,-- 폭풍 망치(2.0추가)
-		132169, -- 폭풍 망치
-		-- Tauren(완)
-		20549, -- War Stomp
+		119392, -- Charging Ox Wave
+		120086, -- Fists of Fury
+		119381, -- Leg Sweep
+		-- Paladin
+		   853, -- Hammer of Justice
+		119072, -- Holy Wrath
+		105593, -- Fist of Justice
+		-- Rogue
+		  1833, -- Cheap Shot
+		   408, -- Kidney Shot
+		-- Shaman
+		118345, -- Pulverize (Primal Earth Elemental)
+		118905, -- Static Charge (Capacitor Totem)
+		-- Warlock
+		 89766, -- Axe Toss (Felguard)
+		 30283, -- Shadowfury
+		 22703, -- Summon Infernal
+		-- Warrior
+		132168, -- Shockwave
+		132169, -- Storm Bolt
+		-- Tauren
+		 20549, -- War Stomp
 	}
 --변이류
 GRA_MAP[2]=
 	{
 		-- Druid
-		2637, -- Hibernate
-		99, -- Disorienting Roar (talent)
-		-- Hunter(완)
-		3355, -- Freezing Trap
-		19386, -- Wyvern Sting
+		    99, -- Incapacitating Roar (talent)
+		-- Hunter
+		  3355, -- Freezing Trap
+		 19386, -- Wyvern Sting
 		-- Mage
-		118, -- Polymorph
-		28272, -- Polymorph (pig)
-		28271, -- Polymorph (turtle)
-		61305, -- Polymorph (black cat)
-		61025, -- Polymorph (serpent) -- FIXME: gone ?
-		61721, -- Polymorph (rabbit)
-		61780, -- Polymorph (turkey)
-		82691, -- Ring of Frost
+		   118, -- Polymorph
+		 28272, -- Polymorph (pig)
+		 28271, -- Polymorph (turtle)
+		 61305, -- Polymorph (black cat)
+		 61025, -- Polymorph (serpent) -- FIXME: gone ?
+		 61721, -- Polymorph (rabbit)
+		 61780, -- Polymorph (turkey)
+		 82691, -- Ring of Frost
+		 31661, -- Dragon's Breath
 		-- Monk
 		115078, -- Paralysis
+		123393, -- Breath of Fire (Glyphed)
+		137460, -- Ring of Peace -- FIXME: correct spellIDs?
 		-- Paladin
-		105421, -- --115750, -- Blinding Light(기사 실명)
-		20066, -- Repentance
+		 20066, -- Repentance
 		-- Priest
-		9484, -- Shackle Undead
-		-- Rogue(완)
-		1776, -- Gouge
-		6770, -- Sap
-		-- Shaman(완)
-		51514, -- Hex
+		   605, -- Dominate Mind
+		  9484, -- Shackle Undead
+		 64044, -- Psychic Horror (Horror effect)
+		 88625, -- Holy Word: Chastise
+		-- Rogue
+		  1776, -- Gouge
+		  6770, -- Sap
+		-- Shaman
+		 51514, -- Hex
+		-- Warlock
+		   710, -- Banish -- Glyph of Crimson Banish ?
+		111397, -- Blood Horror
+		  6789, -- Mortal Coil
 		-- Pandaren
 		107079, -- Quaking Palm
 	}
 --공포류
 GRA_MAP[3]=
 	{
-		-- Hunter
-		1513, -- Scare Beast
+		-- Druid
+		 33786, -- Cyclone
 		-- Paladin
-		10326, -- Turn Evil
-		-- Priest(완)
-		8122, -- Psychic Scream
-		113792, -- 펫공포()
-		-- [] = "fear", -- Psyfiend Fear (ID ?)
-		-- Rogue(완)
-		2094, -- Blind
-		-- Warlock(완)
-		118699, --		5782, -- Fear (Warlock)
-		5484, -- Howl of Terror
-		6358, -- Seduction (Succubus)
-		115268, -- Seduction (improve Succubus)
-		104045,	-- 탈태 수면
-		-- Warrior(완)
-		5246, -- Intimidating Shout (main target)
-		20511, -- Intimidating Shout (secondary targets)
+		105421, -- Blinding Light -- FIXME: is this the right category? Its missing from blizzard's list
+		 10326, -- Turn Evil
+		-- Priest
+		  8122, -- Psychic Scream
+		-- Rogue
+		  2094, -- Blind
+		-- Warlock
+		  5782, -- Fear
+		118699, -- Fear -- new SpellID in MoP, Blood Fear uses same ID
+		  5484, -- Howl of Terror
+		115268, -- Mesmerize (Shivarra)
+		  6358, -- Seduction (Succubus)
+		-- Warrior
+		  5246, -- Intimidating Shout (main target)
 	}
 --침묵류
 GRA_MAP[4]=
 	{
-		-- Death Knight(완)
-		47476, -- Strangulate(질식)
-		-- Druid(완)
-		78675, -- Solar Beam
-		81261, -- Solar Beam -- FIXME: check id
-		114238, -- 요불침묵
-		-- Hunter
-		34490, -- Silencing Shot
-		50479, -- Nether Shock (Nether ray)
-		-- Mage(완)
-		55021, --12598, -- Improved Counterspell
-		102051, -- Frostjaw (talent)
+		-- Death Knight
+		108194, -- Asphyxiate (if target is immune to stun)
+		 47476, -- Strangulate
+		-- Druid
+		114237, -- Glyph of Fae Silence
+		-- Mage
+		102051, -- Frostjaw
 		-- Paladin
-		31935, -- Avenger's Shield
-		-- Priest(완)
-		15487, -- Silence
-		-- Rogue(완)
-		1330, -- Garrote(목졸)
-		-- Warlock(완)
-		115782, --103135, -- Spell Lock (Felhunter-improve)
-		24259, 	-- Spell Lock (Felhunter)
-		-- Warrior(완)
-		18498, -- Glyph of Gag Order -- FIXME: check id
-		-- Blood Elf(완)
-		25046, -- Arcane Torrent (Energy version)
-		28730, -- Arcane Torrent (Mana version)
-		50613, -- Arcane Torrent (Runic power version)
-		69179, -- Arcane Torrent (Rage version)
-		80483, -- Arcane Torrent (Focus version)
-		147362, -- 반격의 사격
+		 31935, -- Avenger's Shield
+		-- Priest
+		 15487, -- Silence
+		-- Rogue
+		  1330, -- Garrote
+		-- Blood Elf
+		 25046, -- Arcane Torrent (Energy version)
+		 28730, -- Arcane Torrent (Mana version)
+		 50613, -- Arcane Torrent (Runic power version)
+		 69179, -- Arcane Torrent (Rage version)
+		 80483, -- Arcane Torrent (Focus version)
 	}
+--발묶기류
 GRA_MAP[5]=
 	{
-		122,   -- 얼음 회오리 
-		33395, -- 얼리기
+		-- Death Knight
+		 96294, -- Chains of Ice (Chilblains Root)
+		-- Druid
+		   339, -- Entangling Roots
+		102359, -- Mass Entanglement (talent)
+		113770, -- Entangling Roots (Treants)
+		-- Hunter
+		 53148, -- Charge (Tenacity pet)
+		135373, -- Entrapment (passive)
+		136634, -- Narrow Escape (passive talent)
+		-- Mage
+		   122, -- Frost Nova
+		 33395, -- Freeze (Water Elemental)
+		111340, -- Ice Ward
+		-- Monk
+		116706, -- Disable
+		-- Priest
+		 87194, -- Glyph of Mind Blast
+		114404, -- Void Tendrils
+		-- Shaman
+		 63685, -- Freeze (Frozen Power talent)
+		 64695, -- Earthgrab Totem
 	}
 	
 UA_localized = GetSpellInfo(31117)	-- MOP Unstable Affliction 

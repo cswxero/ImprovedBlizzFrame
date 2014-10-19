@@ -1,6 +1,5 @@
 ﻿PVPSpellList_new={
 	--가장 우선적으로 피해야하는것
-	[88611] = {spellID = 88611, filter="DEBUFF", absID = false, Priority = 11 },	--연막
 	[140023] = {spellID = 140023, filter="DEBUFF", absID = true, Priority = 11 },	--평화의 고리 침묵 디버프
 	--immunitys
 	[33786] = {spellID = 33786, filter="DEBUFF", absID = false, Priority = 11 },	--회오리
@@ -8,8 +7,9 @@
 	[122470] = {spellID = 122470, filter="DEBUFF", absID = false, Priority = 11 },	--수도사 업보의 손아귀
 	
 	-- stuns
-	[1833] = {spellID = 1833, filter="DEBUFF", absID = false, Priority = 10 },	--비습
 	[408] = {spellID = 408, filter="DEBUFF", absID = false, Priority = 10 },	--급가
+	[1833] = {spellID = 1833, filter="DEBUFF", absID = false, Priority = 10 },	--비습
+	[88611] = {spellID = 88611, filter="DEBUFF", absID = false, Priority = 10 },	--연막
 	[132168] = {spellID = 46968, filter="DEBUFF", absID = false, Priority = 10 },	--충격파
 	[853] = {spellID = 853, filter="DEBUFF", absID = false, Priority = 10 },	--심망
 	[105593] = {spellID = 105593, filter="DEBUFF", absID = false, Priority = 10 }, --심판의 주먹 (추가 성기사 6초기절)

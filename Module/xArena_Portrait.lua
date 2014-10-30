@@ -19,7 +19,9 @@ function mFC(u,p,sz)
 	--print("mFC("..u..")")
 	if not _G[u] then 
 		f:CreateTexture(u,"Border")
-		_G[u].c=CreateFrame("Cooldown",u.."C",UIParent)
+		_G[u].c=CreateFrame("Cooldown",u.."C",UIParent,"CooldownFrameTemplate")
+		_G[u].c:SetReverse(true)
+		_G[u].c:SetFrameLevel(2)
 	end 
 	
 	if(sz)then 

@@ -5,17 +5,12 @@
 ## Notes: 
 ## X-Website: 
 
-## �ھ�
 config.lua
 core.lua
 SpellList.lua
-
-## �����ڵ� ���������� ��ȭ
 Module\Health.lua
 Module\UnitAuraModfier.lua
 Module\Classcolors.lua
-
-## ������� �ֵ��
 Module\Portrait.lua
 Module\BlizzardRaidFrame.lua
 Module\NamePlateSupport.lua

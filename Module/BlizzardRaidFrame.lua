@@ -131,16 +131,12 @@ function CompactUnitFrame_UtilSetAuraSe(buffFrame, unit, index, filter,type)
 	buffFrame:Show(); 
 end 
 
-function UpdateAllIndicators()
-	CompactRaidFrameContainer_ApplyToFrames(CompactRaidFrameContainer, "normal", updatePortraits)
-end
-
 local offset = 0;
 function RaidFrame_OnUpdate(self, elapsed)
 	offset = offset + elapsed
 	if offset > 0.05 then
 		offset = 0
-		UpdateAllIndicators();
+		CompactRaidFrameContainer_ApplyToFrames(CompactRaidFrameContainer, "normal", updatePortraits);
 	end
 end
 

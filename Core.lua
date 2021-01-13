@@ -1,6 +1,7 @@
 	local _G = _G
 	local unpack = unpack
 
+	--스케일변환
 	PlayerFrame:SetScale(IBFC.scale.player)
 	TargetFrame:SetScale(IBFC.scale.target)
 	FocusFrame:SetScale(IBFC.scale.focus)

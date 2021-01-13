@@ -99,7 +99,7 @@
 	[81261] = 8,		    -- Solar Beam
     [137460] = 8,   		-- Silenced (Ring of Peace)
     [15487] = 8,		    -- Silence
-    [1330] = 8,		    -- Garrote - Silence
+    [1330] = 8,		    	-- Garrote - Silence
 --	[431117] = 8,		    -- Unstable Affliction
 	
 	-- Buffs	

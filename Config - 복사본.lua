@@ -5,12 +5,12 @@ IBFC.config = {
 	ClassColor = true,					-- 플레이어 프레임, 대상, 보스프레임등의 체력바에 직업별 색상을 표시
 	HealthPersent = true,				-- 대상, 보스프레임등에 체력을 %로 표현하는 기능
 
-	Portrait = true,					-- 내프레임/대상/주시프레임/펫프레임 켜기/끄기
-	ArenaFrames = true,					-- 블리자드 기본 투기장프레임에 포트레이트 추가
+	Portrait = false,					-- 내프레임/대상/주시프레임/펫프레임 켜기/끄기
+	ArenaFrames = false,					-- 블리자드 기본 투기장프레임에 포트레이트 추가
 	BlizzardRaidFrame = true,			-- 블리자드 기본 레이드 프레임에 포트레이트 추가
 	NamePlateTinker = false,				--이름표에 급장표시
-	NamePlateDiminish = true,			--이름표에 점감표시
-	NamePlateDiminishCommonIcon = true, --이름표에 점감표시시 점감별 공통스킬아이콘을 쓸지를 결정
+	NamePlateDiminish = false,			--이름표에 점감표시
+	NamePlateDiminishCommonIcon = false, --이름표에 점감표시시 점감별 공통스킬아이콘을 쓸지를 결정
 	NamePlateCooldown = false,
 	NamePlateZzal = false,
 	NamePlateCooldown_ARENA = false,

@@ -1,4 +1,4 @@
-if (not ImprovedBlizzFrame.config.MyDebuffLargetMOD) then
+if (not IBFC.config.MyDebuffLargetMOD) then
     return
 end
 
@@ -39,10 +39,5 @@ local function targetFrame_UpdateAuraPositions(self, auraName, numAuras, numOppo
 end
 hooksecurefunc("TargetFrame_UpdateAuraPositions", targetFrame_UpdateAuraPositions);
 
---TargetFrameToT:ClearAllPoints();
---TargetFrameToT:SetPoint("LEFT",TargetFrame,"Top",10, -90);
 TargetFrameToT:SetPoint("BOTTOMRIGHT", -11, -10);
-
---FocusFrameToT:ClearAllPoints();
---FocusFrameToT:SetPoint("LEFT",FocusFrame,"Top",10, -90);
 FocusFrameToT:SetPoint("BOTTOMRIGHT", -11, -10);

@@ -1,31 +1,25 @@
-## Interface: 60000
+## Interface: 90002
 ## Title: ImprovedBlizzFrame
-## Version: 5.0
-## Author: Azshara_kr Lapresis
+## Version: 0.9
+## Author: Azshara_kr Lapresisz
 ## Notes: 
 ## X-Website: 
 
-overlay.xml
-
-## ÄÚ¾î
+## ï¿½Ú¾ï¿½
 config.lua
 core.lua
-Module\SpellID.lua
-Module\Arena_SpellList.lua
+SpellList.lua
 
-## ºí¸®ÀÚµå À¯´ÖÇÁ·¹ÀÓ °­È­
+## ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½È­
 Module\Health.lua
-Module\UnitAura.lua
+Module\UnitAuraModfier.lua
 Module\Classcolors.lua
 
-## CombatText
-Module\CombatText.lua
+## ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Öµï¿½ï¿½
+Module\Portrait.lua
+Module\BlizzardRaidFrame.lua
+Module\NamePlateSupport.lua
 
-## Åõ±âÀå¿ë ¾Öµå¿Â
-Module\xArena_Portrait.lua
-Module\xArena_LoseControl.lua
-Module\Arena_PVPDiminish.lua
-Module\Arena_CombatCheck.lua
-Module\xArena_PVPTrinkets.lua
+
 
 

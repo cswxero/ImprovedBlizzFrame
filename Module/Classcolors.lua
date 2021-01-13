@@ -1,4 +1,4 @@
-if (not ImprovedBlizzFrame.config.ClassColor) then
+if (not IBFC.config.ClassColor) then
     return
 end
 

@@ -1,4 +1,4 @@
-if (not ImprovedBlizzFrame.config.HealthPersent) then
+if (not IBFC.config.HealthPersent) then
     return
 end
 

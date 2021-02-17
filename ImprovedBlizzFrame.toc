@@ -1,6 +1,6 @@
 ## Interface: 90002
 ## Title: ImprovedBlizzFrame
-## Version: 0.9
+## Version: 0.96
 ## Author: Azshara_kr Lapresisz
 ## Notes: 
 ## X-Website: 

@@ -8,20 +8,12 @@ IBFC.config = {
 	Portrait = true,					-- 내프레임/대상/주시프레임/펫프레임 켜기/끄기
 	ArenaFrames = true,					-- 블리자드 기본 투기장프레임에 포트레이트 추가
 	BlizzardRaidFrame = true,			-- 블리자드 기본 레이드 프레임에 포트레이트 추가
-	NamePlateTinker = true,			--이름표에 급장표시
-	NamePlateDiminish = true,			--이름표에 점감표시
-	NamePlateDiminishCommonIcon = true, --이름표에 점감표시시 점감별 공통스킬아이콘을 쓸지를 결정
-	NamePlateCooldown = true,
-	NamePlateZzal = true,
-	NamePlateCooldown_ARENA = true,
---[[
 	NamePlateTinker = false,			--이름표에 급장표시
 	NamePlateDiminish = true,			--이름표에 점감표시
 	NamePlateDiminishCommonIcon = true, --이름표에 점감표시시 점감별 공통스킬아이콘을 쓸지를 결정
 	NamePlateCooldown = false,
 	NamePlateZzal = false,
 	NamePlateCooldown_ARENA = false,
-]]--
 }
 
 --기본 프레임의 크기수정관련

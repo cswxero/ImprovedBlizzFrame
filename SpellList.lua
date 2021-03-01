@@ -613,151 +613,184 @@ GRA_MAP={}
 --스턴류
 GRA_MAP[1]=
 {		
-		408,--KidneyShot
-		108194,--Asphyxiate(unholy)
-		221562,--Asphyxiate(blood)
-		91800,--Gnaw
-		91797,--MonstrousBlow
-		207171,--WinterisComing
-		22570,--Maim
-		203123,--Maim(Incorrect?)
-		163505,--Rake(Prowl)
-		5211,--MightyBash
-		117526,--BindingShot
-		24394,--Intimidation(Incorrect?)
-		19577,--Intimidation(talent)
-		120086,--FistsofFury
-		119381,--LegSweep
-		853,--HammerofJustice
-		1833,--CheapShot
-		118905,--StaticCharge(CapacitorTotem)
-		118345,--Pulverize
-		89766,--AxeToss
-		171017,--MeteorStrike(Infernal)
-		171018,--MeteorStrike(Abysall)
-		30283,--Shadowfury
-		46968,--Shockwave
-		132168,--Shockwave2(?)
-		107570,--StormBolt
-		132169,--StormBolt2(?)
-		64044,--PsychicHorror
-		200200,--HolyWord:Chastise
-		226943,--MindBomb
-		199804,--BetweentheEyes
-		204399,--Earthfury
-		22703,--SummonInfernal
-		179057,--ChaosNova
-		200166,--Metamorphosis
-		205630,--Illidan'sGrasp,primaryeffect
-		208618,--Illidan'sGrasp,secondaryeffect
-		211881,--FelEruption
+		210141,            -- Zombie Explosion
+        334693,            -- Absolute Zero (Breath of Sindragosa)
+        108194,            -- Asphyxiate (Unholy)
+        221562,            -- Asphyxiate (Blood)
+        91800,            -- Gnaw (Ghoul)
+        91797,            -- Monstrous Blow (Mutated Ghoul)
+        287254,            -- Dead of Winter
+        179057,            -- Chaos Nova
+--      213491,            -- Demonic Trample (Only DRs with itself once)
+        205630,            -- Illidan's Grasp (Primary effect)
+        208618,            -- Illidan's Grasp (Secondary effect)
+        211881,            -- Fel Eruption
+        200166,            -- Metamorphosis (PvE stun effect)
+        203123,            -- Maim
+        163505,            -- Rake (Prowl)
+        5211,            -- Mighty Bash
+        202244,            -- Overrun
+        325321,            -- Wild Hunt's Charge
+        24394,            -- Intimidation
+        119381,            -- Leg Sweep
+        202346,            -- Double Barrel
+        853,            -- Hammer of Justice
+        255941,            -- Wake of Ashes
+        64044,            -- Psychic Horror
+        200200,            -- Holy Word: Chastise Censure
+        1833,            -- Cheap Shot
+        408,            -- Kidney Shot
+        118905,            -- Static Charge (Capacitor Totem)
+        118345,            -- Pulverize (Primal Earth Elemental)
+        305485,            -- Lightning Lasso
+        89766,            -- Axe Toss
+        171017,            -- Meteor Strike (Infernal)
+        171018,            -- Meteor Strike (Abyssal)
+--      22703,            -- Infernal Awakening (doesn't seem to DR)
+        30283,            -- Shadowfury
+        46968,            -- Shockwave
+        132168,            -- Shockwave (Protection)
+        145047,            -- Shockwave (Proving Grounds PvE)
+        132169,            -- Storm Bolt
+        199085,            -- Warpath
+--      213688,            -- Fel Cleave (doesn't seem to DR)
+        20549,            -- War Stomp (Tauren)
+        255723,            -- Bull Rush (Highmountain Tauren)
+        287712,            -- Haymaker (Kul Tiran)
+        280061,            -- Brainsmasher Brew (Item)
+        245638,            -- Thick Shell (Item)
+        332423,            -- Sparkling Driftglobe Core
 }
 --변이류
 GRA_MAP[2]=
 {
-		118,--Polymorph
-		67769,--코발트 파편 폭탄
-		99,--IncapacitatingRoar
-		203126,--Maim(Bloodtrauma)
-		3355,--FreezingTrap
-		19386,--WyvernSting
-		209790,--FreezingArrow
-		126819,--Polymorph(Porcupine)
-		61721,--Polymorph(Rabbit)
-		28271,--Polymorph(Turtle)
-		28272,--Polymorph(Pig)
-		161353,--Polymorph(Bearcub)
-		161372,--Polymorph(Peacock)
-		61305,--Polymorph(BlackCat)
-		61780,--Polymorph(Turkey)
-		161355,--Polymorph(Penguin)
-		161354,--Polymorph(Monkey)
-		82691,--RingofFrost
-		115078,--Paralysis
-		20066,--Repentance
-		9484,--ShackleUndead
-		200196,--HolyWord:Chastise
-		1776,--Gouge
-		6770,--Sap
-		51514,--Hex
-		211004,--Hex(Spider)
-		210873,--Hex(Raptor)
-		211015,--Hex(Cockroach)
-		211010,--Hex(Snake)
-		710,--Banish
-		6789,--MortalCoil
-		107079,--QuakingPalm
+		217832,    -- Imprison
+        221527,    -- Imprison (Honor talent)
+        2637,    -- Hibernate
+        99,    -- Incapacitating Roar
+        3355,    -- Freezing Trap
+        203337,    -- Freezing Trap (Honor talent)
+        213691,    -- Scatter Shot
+        118,    -- Polymorph
+        28271,    -- Polymorph (Turtle)
+        28272,    -- Polymorph (Pig)
+        61025,    -- Polymorph (Snake)
+        61305,    -- Polymorph (Black Cat)
+        61780,    -- Polymorph (Turkey)
+        61721,    -- Polymorph (Rabbit)
+        126819,    -- Polymorph (Porcupine)
+        161353,    -- Polymorph (Polar Bear Cub)
+        161354,    -- Polymorph (Monkey)
+        161355,    -- Polymorph (Penguin)
+        161372,    -- Polymorph (Peacock)
+        277787,    -- Polymorph (Baby Direhorn)
+        277792,    -- Polymorph (Bumblebee)
+        82691,    -- Ring of Frost
+        115078,    -- Paralysis
+        20066,    -- Repentance
+        9484,    -- Shackle Undead
+        200196,    -- Holy Word: Chastise
+        1776,    -- Gouge
+        6770,    -- Sap
+        51514,    -- Hex
+        196942,    -- Hex (Voodoo Totem)
+        210873,    -- Hex (Raptor)
+        211004,    -- Hex (Spider)
+        211010,    -- Hex (Snake)
+        211015,    -- Hex (Cockroach)
+        269352,    -- Hex (Skeletal Hatchling)
+        309328,    -- Hex (Living Honey)
+        277778,    -- Hex (Zandalari Tendonripper)
+        277784,    -- Hex (Wicker Mongrel)
+        197214,    -- Sundering
+        710,    -- Banish
+        6789,    -- Mortal Coil
+        107079,    -- Quaking Palm (Pandaren racial)
+        89637,    -- Big Daddy (Item)
+        255228,    -- Polymorphed (Organic Discombobulation Grenade) (Item)
+        71988,    -- Vile Fumes (Item)
 }
 --공포류
 GRA_MAP[3]=
 {
-		5782,--Fear
-		207167,--BlindingSleet
-		213691,--ScatterShot
-		186387,--BurstingShot
-		198909,--SongofChi-ji
-		202274,--IncendiaryBrew
-		33786,--Cyclone
-		31661,--Dragon'sBreath
-		105421,--BlindingLight
-		8122,--PsychicScream
-		2094,--Blind
-		--118699,--FearSelf
-		130616,--Fear(Glyphed?)
-		225453,	--Fear(Incorrect?)
-		118699,--Fear
-		5484,--HowlofTerror
-		115268,--Mesmerize
-		6358,--Seduction
-		5246,--IntimidatingShout
-		207685,--SigilofMisery
-		605,--MindControl
+		207167,      -- Blinding Sleet
+        207685,      -- Sigil of Misery
+        33786,		 -- Cyclone
+        1513,		 -- Scare Beast
+        31661,       -- Dragon's Breath
+        198909,      -- Song of Chi-ji
+        202274,      -- Incendiary Brew
+        105421,      -- Blinding Light
+        10326,       -- Turn Evil (For Lichborne?)
+        605,         -- Mind Control
+        8122,        -- Psychic Scream
+        226943,      -- Mind Bomb
+        2094,        -- Blind
+        118699,      -- Fear
+        5484,        -- Howl of Terror
+        261589,      -- Seduction (Grimoire of Sacrifice)
+        6358,        -- Seduction (Succubus)
+        5246,        -- Intimidating Shout
+        316593,      -- Intimidating Shout 2 (not sure which one is correct in 9.0.1)
+        316595,      -- Intimidating Shout 3
+        35474,       -- Drums of Panic (Item)
+        269186,      -- Holographic Horror Projector (Item)
+        280062,      -- Unluckydo (Item)
+        267026,      -- Giant Flower (Item)
+        243576,      -- Sticky Starfish (Item)
+        331866,      -- Agent of Chaos (Venthyr Covenant)
 }
 --침묵류
 GRA_MAP[4]=
 {
-		15487,--Silence
-		47476,--Strangulate
-		204490,--SigilofSilence
-		78675,--SolarBeam
-		202933,--SpiderSting
-		31935,--Avenger'sShield
-		199683,--LastWord
-		1330,--Garrote
-		 69179,	-- 비전격류(분노)
-		 50613,	-- 비전격류(룬마력)
-		155145,	-- 비전격류(신성한힘)
-		 25046,	-- 비전격류(기력)
-		 80483,	-- 비전격류(집중)
-		129597,	-- 비전격류(기)
-		 28730,	-- 비전격류(마나)
-		236077, -- 무장해제
+		47476,         -- Strangulate
+        204490,         -- Sigil of Silence
+--      78675,         -- Solar Beam (doesn't seem to DR)
+        202933,         -- Spider Sting
+        217824,         -- Shield of Virtue
+        15487,         -- Silence
+        1330,         -- Garrote
+        196364,         -- Unstable Affliction Silence Effect
 }
 --발묶기류
 GRA_MAP[5]=
 {
-		122,--FrostNova
-		96294,--ChainsofIce(chilblains)
-		204085,--Deathchill
-		339,--EntanglingRoots
-		170855,--EntanglingRoots(Nature'sGrasp)
-		45334,--Immobilized(wildcharge,bearform)
-		102359,--MassEntanglement
-		53148,--Charge(Hunterpet)
-		135373,--Entrapment(Incorrect?)
-		64803,--Entrapment
-		162480,--SteelTrap
-		190927,--Harpoon
-		200108,--Ranger'sNet
-		212638,--tracker'snet
-		201158,--SuperStickyTar(ExpertTrapper,Huntertalent,TarTrapeffect)
-		136634,--NarrowEscape
-		--115928,--NarrowEscapeDisengage
-		33395,--Freeze
-		116706,--Disable
-		--114404,--VoidTendrils
-		64695,--Earthgrab(Totemeffect)
-		228600,--GlacialSpike
+		204085,            -- Deathchill (Chains of Ice)
+        233395,            -- Deathchill (Remorseless Winter)
+        339,            -- Entangling Roots
+        170855,            -- Entangling Roots (Nature's Grasp)
+--      45334,            -- Immobilized (Wild Charge, doesn't seem to DR)
+        102359,            -- Mass Entanglement
+        117526,            -- Binding Shot (Note: debuff says stun but it's actually a root)
+        162480,            -- Steel Trap
+--      190927,    -- Harpoon (TODO: check if DRs with itself)
+        212638,            -- Tracker's Net
+        201158,            -- Super Sticky Tar
+        122,            -- Frost Nova
+        33395,            -- Freeze
+        198121,            -- Frostbite
+        220107,            -- Frostbite (Water Elemental? needs testing)
+        342375,            -- Tormenting Backlash (Torghast pve, needs confirmation)
+        233582,            -- Entrenched in Flame
+        116706,            -- Disable
+        324382,            -- Clash
+        64695,            -- Earthgrab (Totem effect)
+        285515,            -- Surge of Power
+        39965,            -- Frost Grenade (Item)
+        75148,            -- Embersilk Net (Item)
+        55536,            -- Frostweave Net (Item)
+        268966,            -- Hooked Deep Sea Net (Item)
+        270399,            -- Unleashed Roots (Item)
+        270196,            -- Chains of Light (Item)
+        267024,            -- Stranglevines (Item)
+}
+
+GRA_MAP[6]=
+{
+		209749,          -- Faerie Swarm (Balance Honor Talent)
+        207777,          -- Dismantle
+        233759,          -- Grapple Weapon
+        236077,          -- Disarm
 }
 
 UA_localized = GetSpellInfo(31117)	-- MOP Unstable Affliction

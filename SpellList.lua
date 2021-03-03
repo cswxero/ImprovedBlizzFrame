@@ -613,6 +613,7 @@ GRA_MAP={}
 --스턴류
 GRA_MAP[1]=
 {		
+		408,            -- Kidney Shot
 		210141,            -- Zombie Explosion
         334693,            -- Absolute Zero (Breath of Sindragosa)
         108194,            -- Asphyxiate (Unholy)
@@ -639,7 +640,6 @@ GRA_MAP[1]=
         64044,            -- Psychic Horror
         200200,            -- Holy Word: Chastise Censure
         1833,            -- Cheap Shot
-        408,            -- Kidney Shot
         118905,            -- Static Charge (Capacitor Totem)
         118345,            -- Pulverize (Primal Earth Elemental)
         305485,            -- Lightning Lasso
@@ -664,6 +664,7 @@ GRA_MAP[1]=
 --변이류
 GRA_MAP[2]=
 {
+		118,    -- Polymorph
 		217832,    -- Imprison
         221527,    -- Imprison (Honor talent)
         2637,    -- Hibernate
@@ -671,7 +672,6 @@ GRA_MAP[2]=
         3355,    -- Freezing Trap
         203337,    -- Freezing Trap (Honor talent)
         213691,    -- Scatter Shot
-        118,    -- Polymorph
         28271,    -- Polymorph (Turtle)
         28272,    -- Polymorph (Pig)
         61025,    -- Polymorph (Snake)
@@ -713,6 +713,7 @@ GRA_MAP[2]=
 --공포류
 GRA_MAP[3]=
 {
+		118699,      -- Fear
 		207167,      -- Blinding Sleet
         207685,      -- Sigil of Misery
         33786,		 -- Cyclone
@@ -726,7 +727,6 @@ GRA_MAP[3]=
         8122,        -- Psychic Scream
         226943,      -- Mind Bomb
         2094,        -- Blind
-        118699,      -- Fear
         5484,        -- Howl of Terror
         261589,      -- Seduction (Grimoire of Sacrifice)
         6358,        -- Seduction (Succubus)
@@ -743,18 +743,19 @@ GRA_MAP[3]=
 --침묵류
 GRA_MAP[4]=
 {
+		15487,         -- Silence
 		47476,         -- Strangulate
         204490,         -- Sigil of Silence
 --      78675,         -- Solar Beam (doesn't seem to DR)
         202933,         -- Spider Sting
         217824,         -- Shield of Virtue
-        15487,         -- Silence
         1330,         -- Garrote
         196364,         -- Unstable Affliction Silence Effect
 }
 --발묶기류
 GRA_MAP[5]=
 {
+		122,            -- Frost Nova
 		204085,            -- Deathchill (Chains of Ice)
         233395,            -- Deathchill (Remorseless Winter)
         339,            -- Entangling Roots
@@ -766,7 +767,6 @@ GRA_MAP[5]=
 --      190927,    -- Harpoon (TODO: check if DRs with itself)
         212638,            -- Tracker's Net
         201158,            -- Super Sticky Tar
-        122,            -- Frost Nova
         33395,            -- Freeze
         198121,            -- Frostbite
         220107,            -- Frostbite (Water Elemental? needs testing)
@@ -787,10 +787,10 @@ GRA_MAP[5]=
 
 GRA_MAP[6]=
 {
+		236077,          -- Disarm
 		209749,          -- Faerie Swarm (Balance Honor Talent)
         207777,          -- Dismantle
         233759,          -- Grapple Weapon
-        236077,          -- Disarm
 }
 
 UA_localized = GetSpellInfo(31117)	-- MOP Unstable Affliction

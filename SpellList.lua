@@ -156,78 +156,81 @@
 	[86659] = 7,			-- 고대왕의 수호자
 	[212641] = 7,			-- 고대왕의 수호자
 	[228049] = 7,			-- 잊힌 여왕의 수호자
-	[184662] = 7,			-- 복수의 방패
 	[210294] = 7,			-- 신의 은총
 	
 	[190319] = 7,			-- 발화
 	
 	[3411] = 7,				-- 가로막기
 	[107574] = 7,			-- 투신
+	
+--예외스킬들 중요한 스킬이 가림 스팸수준이라 
+	[197690] = 6,			-- 방태
+	[184662] = 6,			-- 복수의 방패
     
     -- Root & Snare    
-	--] = 1496294] = 6 ,			-- Chains of Ice (Chilblains)
-	[222029] = 6,			-- Strike of the Windlord (Monk Artifact)
-	[209782] = 6,			-- Goremaw's Bite (Rogue Artifact)
-	[195452] = 6,			-- Nightblade
-    [91807] = 6,			-- Shambling Rush (Dark Transformation)
-    [339] = 6  ,			-- Entangling Roots
-	[113770] = 6,			-- Entangling Roots (Force of Nature - Balance Treants)
-	[45334] = 6,			-- Immobilized (Wild Charge - Bear)
-	[102359] = 6,			-- Mass Entanglement
-	[127797] = 6,			-- Ursol's Vortex
-    [128405] = 6,			-- Narrow Escape
-	[5116] = 6  ,			-- Concussive Shot
-    [13809] = 6,			-- Ice Trap 1	
-	[13810] = 6 ,			-- Ice Trap 2
-    [122] = 6  ,			-- Frost Nova
-	[111340] = 6,			-- Ice Ward
-	[115760] = 6,	        -- Glyph of Ice Block
-	[157997] = 6,			-- Ice Nova
-	[66309] = 6,			-- Ice Nova
-	[110959] = 6,			-- Greater Invisibility
-	[33395] = 6,		    -- Freeze
-    [116706] = 6,			-- Disable
-	[116095] = 6,			-- Disable
-	[118585] = 6,			-- Leer of the Ox
-	[123586] = 6,			-- Flying Serpent Kick
-    [31935] = 6,		    -- Avenger's Shield
-	[110300] = 6,			-- Burden of Guilt
-	[87194] = 6,			-- Glyph of Mind Blast
-	[114404] = 6,			-- Void Tendril's Grasp
-	[114239] = 6,	        -- Phantasm
-	[159630] = 6,		    -- Fade
-    [102051] = 6,	    	-- Frostjaw (also a root)
-	[26679] = 6 ,			-- Deadly Throw
-	[119696] = 6,			-- Debilitation	
-	[77505] = 6,			-- Earthquake	
-	[64695] = 6,			-- Earthgrab (Earthgrab Totem)
-	[63685] = 6,			-- Freeze (Frozen Power)
-	[77478] = 6 ,			-- Earthquake (Glyph of Unstable Earth)
-	[118345] = 6,		    -- Pulverize
-	[710] = 6 ,			-- Banish
-	[137143] = 6,			-- Blood Horror
-	[22703] = 6,			-- Infernal Awakening
-	[18498] = 6,		    -- Silenced - Gag Order (PvE only)
-	[107566] = 6,			-- Staggering Shout
-	[105771] = 6,			-- Warbringer	
-	[12323] = 6,			-- Piercing Howl
+	--] = 1496294] = 5 ,			-- Chains of Ice (Chilblains)
+	[222029] = 5,			-- Strike of the Windlord (Monk Artifact)
+	[209782] = 5,			-- Goremaw's Bite (Rogue Artifact)
+	[195452] = 5,			-- Nightblade
+    [91807] = 5,			-- Shambling Rush (Dark Transformation)
+    [339] = 5  ,			-- Entangling Roots
+	[113770] = 5,			-- Entangling Roots (Force of Nature - Balance Treants)
+	[45334] = 5,			-- Immobilized (Wild Charge - Bear)
+	[102359] = 5,			-- Mass Entanglement
+	[127797] = 5,			-- Ursol's Vortex
+    [128405] = 5,			-- Narrow Escape
+	[5116] = 5  ,			-- Concussive Shot
+    [13809] = 5,			-- Ice Trap 1	
+	[13810] = 5 ,			-- Ice Trap 2
+    [122] = 5  ,			-- Frost Nova
+	[111340] = 5,			-- Ice Ward
+	[115760] = 5,	        -- Glyph of Ice Block
+	[157997] = 5,			-- Ice Nova
+	[66309] = 5,			-- Ice Nova
+	[110959] = 5,			-- Greater Invisibility
+	[33395] = 5,		    -- Freeze
+    [116706] = 5,			-- Disable
+	[116095] = 5,			-- Disable
+	[118585] = 5,			-- Leer of the Ox
+	[123586] = 5,			-- Flying Serpent Kick
+    [31935] = 5,		    -- Avenger's Shield
+	[110300] = 5,			-- Burden of Guilt
+	[87194] = 5,			-- Glyph of Mind Blast
+	[114404] = 5,			-- Void Tendril's Grasp
+	[114239] = 5,	        -- Phantasm
+	[159630] = 5,		    -- Fade
+    [102051] = 5,	    	-- Frostjaw (also a root)
+	[26679] = 5 ,			-- Deadly Throw
+	[119696] = 5,			-- Debilitation	
+	[77505] = 5,			-- Earthquake	
+	[64695] = 5,			-- Earthgrab (Earthgrab Totem)
+	[63685] = 5,			-- Freeze (Frozen Power)
+	[77478] = 5 ,			-- Earthquake (Glyph of Unstable Earth)
+	[118345] = 5,		    -- Pulverize
+	[710] = 5 ,			-- Banish
+	[137143] = 5,			-- Blood Horror
+	[22703] = 5,			-- Infernal Awakening
+	[18498] = 5,		    -- Silenced - Gag Order (PvE only)
+	[107566] = 5,			-- Staggering Shout
+	[105771] = 5,			-- Warbringer	
+	[12323] = 5,			-- Piercing Howl
 	
 	-- Other
-	[30217] = 5,		-- Adamantite Grenade
-	[67769] = 5,		-- Cobalt Frag Bomb
-	[30216] = 5,		-- Fel Iron Bomb
-	[107079] = 5,		-- Quaking Palm
-	[13327] = 5,		-- Reckless Charge	
-	[25046] = 5,		-- Arcane Torrent (Energy)
-	[28730] = 5,		-- Arcane Torrent (Mana)
-	[50613] = 5,		-- Arcane Torrent (Runic Power)
-	[69179] = 5,		-- Arcane Torrent (Rage)
-	[80483] = 5,		-- Arcane Torrent (Focus)
-	[129597] = 5,		-- Arcane Torrent (Chi)
-	[39965] = 5 ,		-- Frost Grenade
-	[55536] = 5 ,		-- Frostweave Net
-	[13099] = 5 ,		-- Net-o-Matic
-	[1604] = 5   ,		-- Dazed
+	[30217] = 4,		-- Adamantite Grenade
+	[67769] = 4,		-- Cobalt Frag Bomb
+	[30216] = 4,		-- Fel Iron Bomb
+	[107079] = 4,		-- Quaking Palm
+	[13327] = 4,		-- Reckless Charge	
+	[25046] = 4,		-- Arcane Torrent (Energy)
+	[28730] = 4,		-- Arcane Torrent (Mana)
+	[50613] = 4,		-- Arcane Torrent (Runic Power)
+	[69179] = 4,		-- Arcane Torrent (Rage)
+	[80483] = 4,		-- Arcane Torrent (Focus)
+	[129597] = 4,		-- Arcane Torrent (Chi)
+	[39965] = 4 ,		-- Frost Grenade
+	[55536] = 4 ,		-- Frostweave Net
+	[13099] = 4 ,		-- Net-o-Matic
+	[1604] = 4   ,		-- Dazed
 };
 
 
